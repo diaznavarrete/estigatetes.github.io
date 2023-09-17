@@ -72,11 +72,11 @@ section {
 }
 
 section.active {
-	position: unset;
-	height: auto;
-	overflow: visible;
-	opacity: 1;
-	visibility: visible;
+    position: unset;
+    height: auto;
+    overflow: visible;
+    opacity: 1;
+    visibility: visible;
     transform: translateY(0px);
 }
 
