@@ -130,3 +130,6 @@ section:first-child.active {
     100% { opacity: 1; }
 }
 
+.patata:hover + #info-box {
+    display: block;
+}
