@@ -130,4 +130,5 @@ section:first-child.active {
 
 .masinfo:hover + #info-box {
     display: block;
+    float: right;
 }
