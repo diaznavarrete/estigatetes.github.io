@@ -25,3 +25,14 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+const patataElement = document.querySelector('p');
+const infoBox = document.getElementById('info-box');
+
+patataElement.addEventListener('mouseover', () => {
+    infoBox.style.display = 'block';
+});
+
+patataElement.addEventListener('mouseout', () => {
+    infoBox.style.display = 'none';
+});

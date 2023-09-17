@@ -115,4 +115,18 @@ section:first-child.active {
     padding-left: 0px;
 }
 
+#info-box {
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
 
