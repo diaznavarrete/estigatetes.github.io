@@ -93,8 +93,6 @@ section:first-child.active {
     border: none;
     cursor: pointer;
     font-size: 1.5vw;
-
-
 }
 
 .menu:hover {
@@ -130,6 +128,6 @@ section:first-child.active {
     100% { opacity: 1; }
 }
 
-.patata:hover + #info-box {
+.masinfo:hover + #info-box {
     display: block;
 }
